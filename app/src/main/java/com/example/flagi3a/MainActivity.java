@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         view.setVisibility(View.INVISIBLE);
         licznik++;
         if(licznik == 4){
-            textView.setText("To jest flaga Polski\n Pomylono się "+bledow+" razy");
+            textView.setText(R.string.podsumowanie);
         }
     }
 }
